@@ -1,4 +1,4 @@
-# Board AI - Algebra Tutor
+# Olympiad - Algebra Tutor
 
 An intelligent algebra tutoring application that provides step-by-step solutions, interactive graphing, and personalized quizzes using AI-powered agents. Built with Next.js 15 and Google's Gemini AI.
 
