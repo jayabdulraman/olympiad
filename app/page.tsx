@@ -395,7 +395,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end mb-2 sm:mb-6 gap-2 font-mono">
             <div>
               <h1 className="text-2l sm:text-3xl font-bold mb-0 leading-tight">
-                Board AI - Algebra Tutor
+                Olympiad - Algebra Tutor
               </h1>
               <p className="!text-sm sm:text-base text-gray-500 mt-1">
                 Walk through an algebra problem step-by-step. Limited to foundational algebra!
@@ -717,7 +717,7 @@ export default function HomePage() {
         <footer className="fixed bottom-0 left-0 right-0 bg-white p-3 z-20 border-t-2 border-black">
           <div className="container mx-auto max-w-5xl flex flex-col sm:flex-row justify-between items-center gap-3">
             <p className="text-sm text-center sm:text-left text-gray-800">
-              <span className="font-semibold">Board AI</span> is developing a
+              <span className="font-semibold">Olympiad</span> is developing a
               personalize AI math tutor that uses a whiteboard. Get early
               access.
             </p>
