@@ -401,18 +401,27 @@ export default function HomePage() {
                 Walk through an algebra problem step-by-step. Limited to foundational algebra!
               </p>
             </div>
-            <button
-              type="button"
-              onClick={() => {
-                clearTutorState();
-                setPrompt(''); // Ensure prompt in input bar is cleared
-              }}
-              className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-sm transition-all hover:bg-gray-50 hover:scale-110 self-start sm:self-auto ring-1 ring-gray-300">
-              <Trash2
-                className="w-5 h-5 text-gray-700"
-                aria-label="Clear whiteboard and steps"
-              />
-            </button>
+            <div className="flex items-center gap-3 self-start sm:self-auto">
+              <a
+                href="https://forms.gle/dxDgHHzixM2M477x5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 text-black font-semibold rounded-none border-2 border-black ml-[-2px] transition-colors disabled:bg-gray-300 disabled:cursor-wait flex items-center justify-center">
+                Help us improve
+              </a>
+              <button
+                type="button"
+                onClick={() => {
+                  clearTutorState();
+                  setPrompt(''); // Ensure prompt in input bar is cleared
+                }}
+                className="w-10 h-10 rounded-full flex items-center justify-center bg-white shadow-sm transition-all hover:bg-gray-50 hover:scale-110 ring-1 ring-gray-300 cursor-pointer">
+                <Trash2
+                  className="w-5 h-5 text-gray-700"
+                  aria-label="Clear whiteboard and steps"
+                />
+              </button>
+            </div>
           </div>
 
           <div className="w-full mb-4">
@@ -746,7 +755,7 @@ export default function HomePage() {
                   <button
                     type="submit"
                     disabled={emailSubmissionStatus === 'loading'}
-                    className="p-2 h-10 bg-black text-white font-semibold rounded-none border-2 border-black ml-[-2px] hover:bg-gray-800 transition-colors disabled:bg-gray-300 disabled:cursor-wait flex items-center justify-center w-28">
+                    className="p-2 h-10 bg-black text-white font-semibold rounded-none border-2 border-black ml-[-2px] hover:bg-gray-800 transition-colors disabled:bg-gray-300 disabled:cursor-wait flex items-center justify-center w-28 cursor-pointer">
                     {emailSubmissionStatus === 'loading' ? (
                       <LoaderCircle className="w-5 h-5 animate-spin" />
                     ) : (
