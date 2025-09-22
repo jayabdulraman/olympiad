@@ -398,7 +398,7 @@ export default function HomePage() {
                 Olympiad - Algebra Tutor
               </h1>
               <p className="!text-sm sm:text-base text-gray-500 mt-1">
-                Walk through an algebra problem step-by-step. Limited to foundational algebra!
+                Walkthrough an algebra problem step-by-step. Limited to foundational algebra!
               </p>
             </div>
             <div className="flex items-center gap-3 self-start sm:self-auto">
