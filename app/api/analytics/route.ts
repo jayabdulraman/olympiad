@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Redis } from '@upstash/redis';
 
+export const runtime = 'edge';
+
 export async function GET(request: NextRequest) {
   // Check for admin authorization
   const url = new URL(request.url);

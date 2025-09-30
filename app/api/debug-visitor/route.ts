@@ -4,6 +4,8 @@ import { Redis } from '@upstash/redis';
 /**
  * Debug endpoint to check visitor ID information in Redis
  */
+export const runtime = 'edge';
+
 export async function GET(request: NextRequest) {
   // Check for admin authorization
   const url = new URL(request.url);

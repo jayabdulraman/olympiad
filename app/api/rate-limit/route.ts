@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { checkRateLimit, checkRateLimitOnly } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 // GET request just checks the rate limit without incrementing
 export async function GET(request: NextRequest) {
   try {
