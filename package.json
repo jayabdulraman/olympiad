@@ -26,7 +26,7 @@
     "zustand": "^5.0.8"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16",
+    "@cloudflare/next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/17037416704/npm-package-next-on-pages-979",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
@@ -34,14 +34,13 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "eslint-plugin-next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/17037416704/npm-package-eslint-plugin-next-on-pages-979",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.7",
     "typescript": "^5",
-    "wrangler": "^4.40.2",
-    "vercel": "44.5.5"
+    "wrangler": "^4.40.2"
   },
   "overrides": {
-    "esbuild": "0.15.18",
-    "vercel": "$vercel"
+    "esbuild": "0.15.18"
   }
 }
