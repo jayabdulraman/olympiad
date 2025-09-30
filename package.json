@@ -32,7 +32,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "eslint": "^8.57.0",
     "eslint-config-next": "15.5.2",
     "eslint-plugin-next-on-pages": "https://prerelease-registry.devprod.cloudflare.dev/next-on-pages/runs/17037416704/npm-package-eslint-plugin-next-on-pages-979",
     "tailwindcss": "^4",
